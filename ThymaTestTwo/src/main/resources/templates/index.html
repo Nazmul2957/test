@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>asdasd</title>
+</head>
+<body>
+<form th:action = '@{/ioi}' th:object = '${obj}' method = "POST">
+  <p th:text='${obj.firstname}'>tese</p>
+  <p th:text='${obj.lastname}'>tese</p>
+  
+  <input type = "text" th:field = '*{firstname}'/>
+  <input type = "text" th:field = '*{lastname}'/>
+  
+  <button type = "submit" value = "adasd">dssdfs</button>
+ </form> 
+</body>
+</html>
